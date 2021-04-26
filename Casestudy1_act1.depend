@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1619120152 source:c:\users\india\documents\embeddedcodes\casestudy\casestudy1_act1\fuse.c
+	<avr/io.h>
+
+1619161884 source:c:\users\india\documents\embeddedcodes\casestudy\casestudy1_act1\portsdefine.c
+	<avr/io.h>
+	<avr/interrupt.h>
+
+1619178644 source:c:\users\india\documents\embeddedcodes\casestudy\casestudy1_act1\main.c
+	<avr/io.h>
+	<util/delay.h>
+
