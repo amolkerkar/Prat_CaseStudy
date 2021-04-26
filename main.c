@@ -8,8 +8,8 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include <avr\io.h>
-#include <util\delay.h>
+#include <avr/io.h>
+#include <util/delay.h>
 /**
  * @brief main function where code execution
  * 
