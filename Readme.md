@@ -1,6 +1,6 @@
 # Embedded C Programming of Heat Controller with Continuous Integration and Code Quality
 
-# CaseStudy ACT-1
+## CaseStudy ACT-1
 
 ### Seat Un-occupied, Button OFF
 ![111](https://user-images.githubusercontent.com/81015406/116058768-c9c2df80-a69d-11eb-8467-5bbb4767d901.JPG)
@@ -10,7 +10,7 @@
 ![222](https://user-images.githubusercontent.com/81015406/116058830-dc3d1900-a69d-11eb-8aa4-a764cc1a5999.JPG)
 
 
-#### CI and Code Quality
+### CI and Code Quality
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
