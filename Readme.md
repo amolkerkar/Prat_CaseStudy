@@ -8,7 +8,6 @@
 ![333](https://user-images.githubusercontent.com/81015406/116058809-d7786500-a69d-11eb-9792-60fddee82437.JPG)
 ### Seat Occupied, Button ON
 ![222](https://user-images.githubusercontent.com/81015406/116058830-dc3d1900-a69d-11eb-8aa4-a764cc1a5999.JPG)
-
 #### CI and Code Quality
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
