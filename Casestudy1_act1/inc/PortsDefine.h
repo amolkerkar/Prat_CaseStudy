@@ -1,6 +1,0 @@
-#ifndef PORTSDEFINE_H_INCLUDED
-#define PORTSDEFINE_H_INCLUDED
-
-port_def();
-
-#endif // PORTSDEFINE_H_INCLUDED
