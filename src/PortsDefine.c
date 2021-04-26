@@ -1,5 +1,8 @@
 #include <avr/interrupt.h>
-
+/**
+ * @brief Initialize all the Peripherals and pin configurations
+ * 
+ */
 void port_def()
 {
 DDRB |= (1<<PB0); // set PB0=1; set bit for Led output
