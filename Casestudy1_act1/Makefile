@@ -5,6 +5,8 @@ BUILD_DIR = Build
 # All Source code files
 SRC = main.c\
 src/user_utils.c
+src/PortsDefine.c
+src/fuse.c
 
 # All header file paths
 INC = -I inc
