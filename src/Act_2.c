@@ -28,6 +28,4 @@ void Act_2()
         temp= ReadADC(0);
         _delay_ms(200);
     }
-
-    return 0;
 }
