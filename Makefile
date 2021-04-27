@@ -8,7 +8,9 @@ src/Act_1.c\
 src/Act_2.c
 
 # All header file paths
-INC = -I inc
+INC = -I inc\
+inc/Act_1.h\
+inc/Act_2.h\
 
 # Find out the OS and configure the variables accordingly
 ifdef OS	# All configurations for Windwos OS
