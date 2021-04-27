@@ -8,7 +8,6 @@ src/Act_1.c\
 src/Act_2.c\
 
 # All header file paths
-INC = Act_1.h\
 INC = -I inc
 
 # Find out the OS and configure the variables accordingly
