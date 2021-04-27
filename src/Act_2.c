@@ -1,7 +1,4 @@
 
-#include <avr/io.h>
-#include <util/delay.h>
-
 void InitADC()
 {
     ADMUX = (1<<REFS0);
