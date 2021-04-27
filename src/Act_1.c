@@ -15,8 +15,10 @@
  *
  * @return int
  */
-Act_1()
+void Act_1()
 {
+    while(1)
+    {
         if(!(PIND&(1<<PD2))&&!(PIND&(1<<PD3)))
         {
         PORTB |=(1<<PB0);
@@ -28,4 +30,5 @@ Act_1()
         PORTB &=~(1<<PB0);
         PORTB &=~(1<<PB1);
         }
+    }
 }
