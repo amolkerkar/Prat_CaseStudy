@@ -3,9 +3,7 @@ PROJ_NAME = CaseStudy
 BUILD_DIR = Build
 
 # All Source code files
-SRC = main.c\
-src/PortsDefine.c\
-src/fuse.c
+SRC = Act_1.c\
 
 # All header file paths
 INC = -I inc
