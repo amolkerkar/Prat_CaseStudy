@@ -2,38 +2,31 @@
  * @file main.c
  * @author Pratik Lodha
  * @brief Project for Heat Control of a seat
- * @version 0.1 (Act-1)
+ * @version 0.1
  * @date 2021-04-24
- * 
+ *
  * @copyright Copyright (c) 2021
- * 
+ *
  */
-#include <avr/io.h>
-#include <util/delay.h>
+#include <avr\io.h>
 /**
  * @brief main function where code execution
- * 
- * @return int 
+ *
+ * @return int
  */
 int main(void)
 {
-port_def();
+DDRB |= (1<<PB0); // set PB0=1; set bit for Led output
+DDRB |= (1<<PB1); // set PB1=1; set bit for heater output
 
-    while(1)
-    {
-        if(!(PIND&(1<<PD2))&&!(PIND&(1<<PD3)))
-        {
-        PORTB |=(1<<PB0);
-        PORTB |=(1<<PB1);
-        _delay_ms(2000);
+DDRD &=~(1<<PD2); // set PD2=0; clear bit for input
+PORTD |= (1<<PD2);
 
-        }
-        else
-        {
-        PORTB &=~(1<<PB0);
-        PORTB &=~(1<<PB1);
-        }
-    }
+DDRD &=~(1<<PD3); // set PD3=0; clear bit for input
+PORTD |= (1<<PD3);
 
-    return 0;
+Act_1();
+Act_2();
+
+return 0;
 }
