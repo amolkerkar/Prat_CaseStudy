@@ -1,3 +1,4 @@
+
 #include <avr/io.h>
 #include <util/delay.h>
 
@@ -17,7 +18,7 @@ uint16_t ReadADC(uint8_t ch)
     return(ADC);
 }
 
-void Act_2()
+void Activity_2()
 {
     InitADC();
     uint16_t temp;
