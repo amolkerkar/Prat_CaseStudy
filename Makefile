@@ -3,7 +3,7 @@ PROJ_NAME = CaseStudy
 BUILD_DIR = Build
 
 # All Source code files
-SRC = main.c\ 
+SRC = main.c\
 src/Act_1.c\
 src/Act_2.c
 
