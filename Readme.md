@@ -1,4 +1,4 @@
-# Embedded C Programming of Heat Controller with Continuous Integration and Code Quality
+# Heat Controller
 
 ## CaseStudy ACT-1
 ### Seat Un-occupied, Button OFF
