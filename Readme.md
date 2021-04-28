@@ -8,6 +8,17 @@
 ![333](https://user-images.githubusercontent.com/81015406/116058809-d7786500-a69d-11eb-9792-60fddee82437.JPG)
 ### Seat Occupied, Button ON
 ![222](https://user-images.githubusercontent.com/81015406/116058830-dc3d1900-a69d-11eb-8aa4-a764cc1a5999.JPG)
+
+## CaseStudy ACT-3
+### ADC value = 89 ; 20% Duty Cylce - 20 C
+![20](https://user-images.githubusercontent.com/81015406/116376127-957e2900-a82d-11eb-84c0-dcd6216ed61e.JPG)
+### ADC value = 258 ; 40% Duty Cylce - 25 C
+![40](https://user-images.githubusercontent.com/81015406/116376133-96af5600-a82d-11eb-9c69-84105e65b507.JPG)
+### ADC value = 585 ; 70% Duty Cylce - 29 C
+![70](https://user-images.githubusercontent.com/81015406/116376136-9747ec80-a82d-11eb-9167-6a35c9fc0c24.JPG)
+### ADC value = 950 ; 95% Duty Cylce - 33 C
+![90](https://user-images.githubusercontent.com/81015406/116376139-9747ec80-a82d-11eb-8ce3-15a7a4af6475.JPG)
+
 #### CI and Code Quality
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
