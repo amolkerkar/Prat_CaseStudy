@@ -21,11 +21,10 @@ uint16_t ReadADC(uint8_t ch)
 void Activity_2()
 {
     InitADC();
-    uint16_t temp;
+ //   uint16_t temp;
 
-    while(1)
     {
-        temp= ReadADC(0);
+        ReadADC(0);
         _delay_ms(200);
     }
 }
