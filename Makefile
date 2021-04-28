@@ -4,11 +4,16 @@ BUILD_DIR = Build
 
 # All Source code files
 SRC = main.c\
-src/PortsDefine.c\
+src/Act_1.c\
+src/Act_2.c\
+src/Act_3.c\
 src/fuse.c
 
 # All header file paths
-INC = -I inc
+INC = -I inc\
+inc/Act_1.h\
+inc/Act_2.h\
+inc/Act_3.h\
 
 # Find out the OS and configure the variables accordingly
 ifdef OS	# All configurations for Windwos OS
