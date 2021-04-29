@@ -9,8 +9,10 @@
  *
  */
 #include <avr/io.h>
+# define F_CPU 16000000UL
 #include <util/delay.h>
-
+void Activity_2();
+void Activity_3();
 /** \brief main function of act-1, sensing the availability of passenger and heater button and giving output for LedActuator
  *
  * \return void
