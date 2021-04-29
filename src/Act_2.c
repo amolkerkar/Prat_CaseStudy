@@ -9,6 +9,7 @@
  *
  */
 #include <avr/io.h>
+# define F_CPU 16000000UL
 #include <util/delay.h>
 
 /** \brief InitADC function initializes the ADC
