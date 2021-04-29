@@ -17,23 +17,23 @@
 ![5a_1022d](https://user-images.githubusercontent.com/81015406/116377895-42a57100-a82f-11eb-97ae-95e4983746bb.JPG)
 
 ## CaseStudy ACT-3(ADC)
-### ADC value = 89, Heater On for 20% Duty Cylce - 20 C
+### ADC value = 89, Heater On for 20% Duty Cylce - 20°C
 ![20](https://user-images.githubusercontent.com/81015406/116376127-957e2900-a82d-11eb-84c0-dcd6216ed61e.JPG)
-### ADC value = 25, Heater On for 40% Duty Cylce - 25 C
+### ADC value = 25, Heater On for 40% Duty Cylce - 25°C
 ![40](https://user-images.githubusercontent.com/81015406/116376133-96af5600-a82d-11eb-9c69-84105e65b507.JPG)
-### ADC value = 585, Heater On for 70% Duty Cylce - 29 C
+### ADC value = 585, Heater On for 70% Duty Cylce - 29°C
 ![70](https://user-images.githubusercontent.com/81015406/116376136-9747ec80-a82d-11eb-9167-6a35c9fc0c24.JPG)
-### ADC value = 950, Heater On for 95% Duty Cylce - 33 C
+### ADC value = 950, Heater On for 95% Duty Cylce - 33°C
 ![90](https://user-images.githubusercontent.com/81015406/116376139-9747ec80-a82d-11eb-8ce3-15a7a4af6475.JPG)
 
 ## CaseStudy ACT-4(Display Temperature)
-### 20 degree C 
+### 20°C 
 ![20c](https://user-images.githubusercontent.com/81015406/116543659-c3399f80-a90b-11eb-8e12-5415b695d137.JPG)
-### 25 degree C 
+### 25°C 
 ![25c](https://user-images.githubusercontent.com/81015406/116543662-c46acc80-a90b-11eb-9f5f-3dc4ea683619.JPG)
-### 29 degree C 
+### 29°C 
 ![29c](https://user-images.githubusercontent.com/81015406/116543664-c46acc80-a90b-11eb-8759-006d7e624145.JPG)
-### 33 degree C 
+### 33°C 
 ![33c](https://user-images.githubusercontent.com/81015406/116543666-c5036300-a90b-11eb-86ac-f0a7e3f64113.JPG)
 
 
