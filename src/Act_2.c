@@ -1,7 +1,7 @@
 
 #include <avr/io.h>
 #include <util/delay.h>
-
+#define F_CPU 16000000UL
 void InitADC()
 {
     ADMUX = (1<<REFS0);
