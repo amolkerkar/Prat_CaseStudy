@@ -1,6 +1,6 @@
 # HEAT CONTROLLER
 
-## CaseStudy ACT-1
+## CaseStudy ACT-1(Check conditions)
 ### Seat Un-occupied, Button OFF
 ![111](https://user-images.githubusercontent.com/81015406/116058768-c9c2df80-a69d-11eb-8467-5bbb4767d901.JPG)
 ### Seat Occupied, Button OFF
@@ -8,7 +8,7 @@
 ### Seat Occupied, Button ON
 ![222](https://user-images.githubusercontent.com/81015406/116058830-dc3d1900-a69d-11eb-8aa4-a764cc1a5999.JPG)
 
-## CaseStudy ACT-2
+## CaseStudy ACT-2(Sense the temperature)
 ### 1.3V analog to digital 266 decimal
 ![1 3a_266d](https://user-images.githubusercontent.com/81015406/116377909-43d69e00-a82f-11eb-908b-cea18d6e3520.JPG)
 ### 3.25V analog to digital 664 decimal
@@ -16,7 +16,7 @@
 ### 5V analog to digital 1022 decimal
 ![5a_1022d](https://user-images.githubusercontent.com/81015406/116377895-42a57100-a82f-11eb-97ae-95e4983746bb.JPG)
 
-## CaseStudy ACT-3
+## CaseStudy ACT-3(ADC)
 ### ADC value = 89, Heater On for 20% Duty Cylce - 20 C
 ![20](https://user-images.githubusercontent.com/81015406/116376127-957e2900-a82d-11eb-84c0-dcd6216ed61e.JPG)
 ### ADC value = 25, Heater On for 40% Duty Cylce - 25 C
@@ -26,7 +26,7 @@
 ### ADC value = 950, Heater On for 95% Duty Cylce - 33 C
 ![90](https://user-images.githubusercontent.com/81015406/116376139-9747ec80-a82d-11eb-8ce3-15a7a4af6475.JPG)
 
-## CaseStudy ACT-4
+## CaseStudy ACT-4(Display Temperature)
 ### 20 degree C 
 ![20c](https://user-images.githubusercontent.com/81015406/116543659-c3399f80-a90b-11eb-8e12-5415b695d137.JPG)
 ### 25 degree C 
