@@ -32,8 +32,6 @@ PORTD |= (1<<PD3);
         PORTB |=(1<<PB0);
         Activity_2();
         Activity_3();
-        Activity_4();
- //       PORTB |=(1<<PB1);
         _delay_ms(200);
         }
         else
