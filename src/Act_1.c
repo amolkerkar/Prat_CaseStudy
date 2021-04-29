@@ -26,13 +26,15 @@ PORTD |= (1<<PD2);
 DDRD &=~(1<<PD3); // set PD3=0; clear bit for input
 PORTD |= (1<<PD3);
 
-    while(1)
     {
         if(!(PIND&(1<<PD2))&&!(PIND&(1<<PD3)))
         {
         PORTB |=(1<<PB0);
-        PORTB |=(1<<PB1);
-        _delay_ms(2000);
+        Activity_2();
+        Activity_3();
+        Activity_4();
+ //       PORTB |=(1<<PB1);
+        _delay_ms(200);
         }
         else
         {
