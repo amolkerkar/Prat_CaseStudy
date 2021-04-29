@@ -1,7 +1,7 @@
 
 #include <avr/io.h>
 #include <util/delay.h>
-
+int temperature;
 void USARTInit(uint16_t ubrr_value)
 {
 
@@ -49,7 +49,7 @@ void Activity_4()
 DDRB|=(1<<PB1);
 USARTInit(103);
     {
-        USARTWriteChar('A');
+        USARTWriteChar(temperature);
         _delay_ms(100);
     }
 }
