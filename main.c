@@ -12,6 +12,7 @@
 #include "Act_1.h"
 #include "Act_2.h"
 #include "Act_3.h"
+#include "Act_4.h"
 /**
  * @brief main function where code execution
  *
@@ -22,8 +23,6 @@ int main(void)
     while(1)
     {
     Activity_1();
-    Activity_2();
-    Activity_3();
     }
 
 return 0;
