@@ -9,9 +9,10 @@
  *
  */
 #include <avr/io.h>
+# define F_CPU 16000000UL
 #include <util/delay.h>
 int temperature=0;
-
+void Activity_4();
 /** \brief Generating PWM for controlling the temperature using Heater. Getting Input from ADC register and using Output Compare Match register
  *
  * \param void
