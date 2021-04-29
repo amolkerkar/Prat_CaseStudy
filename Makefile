@@ -4,7 +4,7 @@ BUILD_DIR = Build
 
 # All Source code files
 SRC = main.c\
-src/Act_1.c  src/Act_2.c  src/Act_3.c  src/fuse.c
+src/Act_1.c  src/Act_2.c  src/Act_3.c  src/Act_4.c  src/fuse.c 
 
 # All header file paths
 INC = -I inc
