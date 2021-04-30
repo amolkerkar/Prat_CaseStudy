@@ -20,19 +20,19 @@ void Activity_3();
  */
 void Activity_1()
 {
-DDRB |= (1<<PB0); // set PB0=1; set bit for Led output
+DDRB |= (1<<PB0); // set PB0=1; set bit for Led output        // PortB Data Direction Register
 DDRB |= (1<<PB1); // set PB1=1; set bit for heater output
 
-DDRD &=~(1<<PD2); // set PD2=0; clear bit for input
+DDRD &=~(1<<PD2); // set PD2=0; clear bit for input           // PortD Data Direction Register
 PORTD |= (1<<PD2);
 
 DDRD &=~(1<<PD3); // set PD3=0; clear bit for input
 PORTD |= (1<<PD3);
 
     {
-        if(!(PIND&(1<<PD2))&&!(PIND&(1<<PD3)))
+        if(!(PIND&(1<<PD2))&&!(PIND&(1<<PD3)))                // PortD Input Pin Address
         {
-        PORTB |=(1<<PB0);
+        PORTB |=(1<<PB0);                                     // PortB Data Register
         Activity_2(); // calling activity 2
         Activity_3(); // calling activity 3
         _delay_ms(200);
