@@ -20,8 +20,8 @@
  */
 void InitADC()
 {
-    ADMUX = (1<<REFS0);
-    ADCSRA = (1<<ADEN)|(7<<ADPS0);
+    ADMUX = (1<<REFS0);                 // ADC Multiplexer Selection Register // Reference Selection Bit 0
+    ADCSRA = (1<<ADEN)|(7<<ADPS0);      // ADC Control And Status Register A  // ADC Enable // ADC Pre-scaler Bit 0
 }
 
 /** \brief ReadADC function reads the analog voltage at pin PC0, converts and stores binary bits in Register ADCL and ADCH
@@ -35,10 +35,10 @@ uint16_t ReadADC(uint8_t ch)
     ADMUX&=0xf8;
     ch=ch&0b00000111;
     ADMUX|=ch;
-    ADCSRA|=(1<<ADSC);
-    while(!(ADCSRA & (1<<ADIF)));
+    ADCSRA|=(1<<ADSC);                  // ADC Start Conversion
+    while(!(ADCSRA & (1<<ADIF)));       // ADC Interrupt Flag
     ADCSRA|=(1<<ADIF);
-    return(ADC);
+    return(ADC);                        // ADCH and ADCL register
 }
 
 /** \brief main function of act-2, Reading the analog temperature and converting into digital using internal ADC
