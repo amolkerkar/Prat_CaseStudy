@@ -21,8 +21,8 @@ void Activity_4();
  */
 int Activity_3(void)
 {
-TCCR1A=(1<<COM1A1)|(1<<WGM11)|(WGM10);
-TCCR1B=(1<<WGM12)|(1<<CS11)|(1<<CS10);
+TCCR1A=(1<<COM1A1)|(1<<WGM11)|(WGM10);          // Timer/Counter 1 Control Register A // Compare output mode for channel A
+TCCR1B=(1<<WGM12)|(1<<CS11)|(1<<CS10);          // Waveform Generation Mode bits      // Clock Select Bits
 DDRB|=(1<<PB1);
 
 PORTB |= (1<<PB1);
@@ -32,7 +32,7 @@ PORTB |= (1<<PB1);
         {
          temperature = 20;
          Activity_4(); //calling activity 4
-         OCR1A=102;
+         OCR1A=102;                             // Output Compare Register A stores TOP value
          _delay_ms(200);
         }
         else if(ADC <= 500)
